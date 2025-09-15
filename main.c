@@ -9,7 +9,7 @@ int i = 0;
 
 //This program makesv sure the weight of the freight on a conveyorbelt dosn't exceed the motorcapacity.
 
-printf("active motors?: "); // asking for active motor count
+printf("active motors?: "); // asking for active motor count5.5
 scanf("%d", &motorCount); // input active motor count
 
 printf("how many packages?: "); // asking for package count
@@ -26,9 +26,9 @@ printf("%.2f kg\n", packageWeight);
 double capacity = (motorCount*motorPower)/packageWeight;// double capacity for at kunne håndtere både integers og floats
 
 if(capacity >= 1) {
-    printf("Weight is okidoki!");
+    puts("Weight is okidoki!");
 } else {
-    printf("Weight is not okidoki!");
+    puts("Weight is not okidoki!");
 }//if else control statements for at printe ok eller ikke ok
 return 0;    
-}
+}5
